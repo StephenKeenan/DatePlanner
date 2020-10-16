@@ -33,6 +33,14 @@ $(document).ready(function () {
                 $(this).removeClass("present");
                 $(this).removeClass("past");
             }
+
+            else if (parseInt(intHourDay) === parseInt(intCurrentHours)) {
+                $(this).addClass("present");
+                $(this).addClass("future");
+                $(this).removeClass("past");
+            }
         })
-    }
+    };
+
+    timeFrame();
 })
