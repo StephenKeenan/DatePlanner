@@ -11,6 +11,8 @@ $(document).ready(function () {
         console.log(this);
         var value = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
+
+        localStorage.setItem(time, value);
     });
 
     $("#currentDay").text(moment().format("LLL"));
@@ -36,7 +38,7 @@ $(document).ready(function () {
 
             else if (parseInt(intHourDay) === parseInt(intCurrentHours)) {
                 $(this).addClass("present");
-                $(this).addClass("future");
+                $(this).removeClass("future");
                 $(this).removeClass("past");
             }
         })
