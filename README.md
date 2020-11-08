@@ -14,7 +14,7 @@ Allows users to save events for each hour of the day, and indicates both the cur
 ## Visual Representation
 ![Work Day Scheduler]()
 
-## Function
+## Acceptance Criteria
 
 ```
 GIVEN I am using a daily planner to create a schedule
