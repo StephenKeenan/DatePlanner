@@ -12,7 +12,7 @@ Allows users to save events for each hour of the day, and indicates both the cur
 [Work Day Scheduler](https://stephenkeenan.github.io/DatePlanner/)
 
 ## Visual Representation
-![Work Day Scheduler]()
+![Work Day Scheduler](https://github.com/StephenKeenan/DatePlanner/blob/master/assets/Work%20Day%20Scheduler.JPG)
 
 ## Acceptance Criteria
 
