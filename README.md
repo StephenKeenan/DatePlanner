@@ -1,8 +1,10 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
+```
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
+```
 
 ## Description
 Allows users to save events for each hour of the day, and indicates both the current hour and future time blocks. The app runs in the browser and uses dynamically updated HTML and CSS powered by jQuery, as well as the Moment.js library to work with date and time. 
